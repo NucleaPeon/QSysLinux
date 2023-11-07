@@ -8,3 +8,11 @@ While working on a library, I encountered a situation where the linux kernel ver
 ```cpp
 name = QSysInfo::kernelType () + '/' + QSysInfo::kernelVersion ();
 ```
+
+The equivalent statement using this library is:
+
+```cpp
+name = QSysLinux::kernelType() + '/' + QSysLinux::kernelVersion();
+```
+
+
